@@ -1,0 +1,51 @@
+Hi everyone,
+
+
+I am sushmita and I have worked on game manager service.
+
+
+Game Manager Service is responsible for managing all games that the system supports. This service is responsible for managing the questions that the Question Generator Service produces, and all games that Game Creators create in the system.
+
+As mentioned, currently Game manager supports three types of games: Single player timer based, multi player fastest fingure 
+first and adaptive game engine.
+
+However, new games can be seamlessly integrated to the system through this Game Manager Service. Adding a new Game only involves creating the UI and as this service is using a schema less MongoDB at the backend, the new game schema can be stored along with the existing games.
+
+
+The Game Creator service has been designed to support different formats for the same game type. 
+
+For example, suppose you want to create a game to assess prospective programmers for hiring in your organization.
+
+With this Game Manager, you can quickly create a game that tests Beginner level programmers by selecting the type, number, and duration accordingly.
+
+For an advance-level programmer, you can create the same game with different configurations - mayebe a game with advance level question and providing lesser time.
+
+
+
+Let me demonstrate how this can be done. 
+
+<<Please Demonbstrate -> Highlight how you specify levels, time, and numbers>>
+
+<<Browse to Landing Page and show the newly generated Game Card>>
+
+
+Once the game is created, the Game Manager stores the game in the Mongo backend. Now, whenever any game engine requests for a Game, few things happen:
+
+The Game manager based on the requested Game ID will check Game properties, like the number of questions per level.
+
+Based on it, the Game Manager will filter questions from the database. Questions are filtered in such a way that it should not get
+repeated for any user and every user gets a unique questions sets.
+
+Finally, the game manager COllectes all information required to run the game, such as set of rules, description, levels, scores, 
+time per question, and so on and sends it back to the requesting Game engine.
+
+
+
+
+
+
+The main challenge I faced in modelling games was to 
+create games of different configurations,where questions
+are divided based on different levels.
+
+

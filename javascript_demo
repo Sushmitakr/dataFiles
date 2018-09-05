@@ -1,0 +1,847 @@
+
+JavaScript arrays are used to        store multiple values in a single variable.
+
+An array is a special variable, which can     hold more than one value at a time.
+
+1.)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------
+
+Array-like objects:-
+
+As we’ve seen, JavaScript arrays have some special features that other objects do not have:
+
+1)The length property is automatically updated as new elements are added to the list.
+
+2)Setting length to a smaller value truncates the array.
+
+3)Arrays inherit useful methods from Array.prototype.
+
+4)Arrays have a class attribute of “Array”.
+
+Example:
+
+var a = {};  // Start with a regular empty object
+
+// Add properties to make it "array-like"
+
+	var i = 0;
+	while(i < 10) {
+    	a[i] = i * i;
+    	i++;
+}
+a.length = i;
+
+// Now iterate through it as if it were a real ...
+
+
+
+These “array-like” objects actually do occasionally appear in practice, and although you cannot directly invoke array methods on them or expect special behavior from the length property, you can still iterate through them with the same code you’d use for a true array. It turns out that many array algorithms work just as well with array-like objects as they do with real arrays. This is especially true if your algorithms treat the array as read-only or if they at least leave the array length unchanged.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Slice() ->
+returns a shallow copy of a portion of an array
+into new array object selected from begin to end (end not included).
+The original array will not be modified.
+
+var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2));
+// expected output: Array ["camel", "duck", "elephant"]
+
+console.log(animals.slice(2, 4));
+// expected output: Array ["camel", "duck"]
+
+console.log(animals.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"]
+
+
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to extract the second and the third elements from the array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+    var citrus = fruits.slice(1, 3);
+    document.getElementById("demo").innerHTML = citrus;
+}
+</script>
+
+</body>
+</html>
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+var citrus = fruits.slice(1, 3);
+
+
+Example:
+
+// Using slice, create newCar from myCar.
+var myHonda = { color: 'red', wheels: 4, engine: { cylinders: 4, size: 2.2 } };
+var myCar = [myHonda, 2, 'cherry condition', 'purchased 1997'];
+var newCar = myCar.slice(0, 2);
+
+// Display the values of myCar, newCar, and the color of myHonda
+//  referenced from both arrays.
+console.log('myCar = ' + JSON.stringify(myCar));
+console.log('newCar = ' + JSON.stringify(newCar));
+console.log('myCar[0].color = ' + myCar[0].color);
+console.log('newCar[0].color = ' + newCar[0].color);
+
+// Change the color of myHonda.
+myHonda.color = 'purple';
+console.log('The new color of my Honda is ' + myHonda.color);
+
+// Display the color of myHonda referenced from both arrays.
+console.log('myCar[0].color = ' + myCar[0].color);
+console.log('newCar[0].color = ' + newCar[0].color);
+
+
+
+
+
+ans:
+myCar = [{color: 'red', wheels: 4, engine: {cylinders: 4, size: 2.2}}, 2,
+         'cherry condition', 'purchased 1997']
+newCar = [{color: 'red', wheels: 4, engine: {cylinders: 4, size: 2.2}}, 2]
+myCar[0].color = red 
+newCar[0].color = red
+The new color of my Honda is purple
+myCar[0].color = purple
+newCar[0].color = purple
+
+
+Array.prototype:-
+The Array.prototype property represents the prototype for the Array constructor and allows you to add new properties and methods to all Array objects.
+
+Array instances inherit from Array.prototype. As with all constructors, you can change the constructor's prototype object to make changes to all Array instances. For example, you can add new methods and properties to extend all Array objects.
+
+Array.prototype itself is an Array:
+
+Array.isArray(Array.prototype); // true
+
+Array.prototype.constructor
+Specifies the function that creates an object's prototype.
+
+Array.prototype.length
+Reflects the number of elements in an array.
+
+Array.prototype[@@unscopables]
+A symbol containing property names to exclude from a with binding scope.
+
+
+Methods:
+
+Mutator Methods(These methods modify the array):
+------------------------------------------------
+
+Array.prototype.copyWithin()
+Copies a sequence of array elements within the array.
+
+
+			ARRAY METHODS
+			--------------
+
+1) toString():
+	Converts an array to a string
+	eg:
+<!DOCTYPE html>
+<html>
+<body>
+<p>The toString() method returns an array as a comma separated string:</p>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+</script>
+
+</body>
+</html>
+
+//The toString() method returns an array as a comma separated string:
+
+Banana,Orange,Apple,Mango
+--------------------------------------------------------------------------------------
+
+2) join():
+	joins all array elements into a string.
+	It behaves just like toString(), but in addition you can specify the separator:
+	eg:
+<!DOCTYPE html>
+<html>
+<body>
+<p>It this example we have used " * " as a separator between the elements:</p>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.join(" * ");
+</script>
+
+</body>
+</html>
+
+	
+//Banana * Orange * Apple * Mango
+
+-------------------------------------------------------------------------------------------
+3)Pop():-
+	The pop() method removes the last element from an array:
+
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits.pop();
+document.getElementById("demo2").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+//Banana,Orange,Apple,Mango
+  Banana,Orange,Apple
+
+-------------------------------------------------------------------------------------------------
+4)Push():-
+
+The push() method appends a new element to an array.
+
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits.push("Kiwi");
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+
+//The push() method appends a new element to an array.
+
+Try it
+Banana,Orange,Apple,Mango,Kiwi,Kiwi,Kiwi
+
+Eg2:
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+
+function myFunction() {
+    document.getElementById("demo2").innerHTML = fruits.push("Kiwi");
+    document.getElementById("demo1").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+
+//The push() method returns the new array length.
+
+Try it
+Banana,Orange,Apple,Mango,Kiwi,Kiwi
+
+6
+
+--------------------------------------------------------------------------
+5)Shift():-
+
+The shift() method removes the first element of an array (and "shifts" all other elements to the left)
+
+eg:
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits.shift();
+document.getElementById("demo2").innerHTML = fruits;
+</script>
+</body>
+</html>
+
+//Banana,Orange,Apple,Mango
+
+Orange,Apple,Mango
+
+--------------------------------------------------------------------------------------------------------------
+
+6)Unshift():-
+
+The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements.
+
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits.unshift("Lemon");
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+
+//The unshift() method adds new elements to the beginning of an array.
+
+Try it
+Lemon,Lemon,Lemon,Lemon,Banana,Orange,Apple,Mango
+
+-------------------------------------------------------------------------------------------------------------------
+7)Index:-
+	Array elements are accessed using their index number:
+
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+
+<p>Array elements are accessed using their index number:</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+fruits[0] = "Kiwi";
+document.getElementById("demo2").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+
+//Banana,Orange,Apple,Mango
+
+Kiwi,Orange,Apple,Mango
+
+----------------------------------------------------------------------------------------------------------------------
+8)Length(arr[arr.length]):-
+
+eg2:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+
+<p>The length property provides an easy way to append new elements to an array without using the push() method.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits[fruits.length] = "Kiwi";
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+
+
+-------------------------------------------------------------------------------------------
+9)Delete:-
+
+Since JavaScript arrays are objects, elements can be deleted by using the JavaScript operator delete:
+
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+
+<p>Deleting elements leaves undefined holes in an array.</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML =
+"The first fruit is: " + fruits[0];
+delete fruits[0];
+document.getElementById("demo2").innerHTML =
+"The first fruit is: " + fruits[0];
+</script>
+
+</body>
+</html>
+
+//Deleting elements leaves undefined holes in an array.
+
+The first fruit is: Banana
+
+The first fruit is: undefined
+
+----------------------------------------------------------------------------------------------------------------------
+10)splice() :-
+
+The splice() method can be used to add new items to an array:
+
+eg:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+
+<h2>splice()</h2>
+
+<p>The splice() method adds new elements to an array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+function myFunction() {
+    fruits.splice(2, 0, "Lemon", "Kiwi");
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+
+//The splice() method adds new elements to an array.
+
+Try it
+Banana,Orange,Lemon,Kiwi,Lemon,Kiwi,Lemon,Kiwi,Apple,Mango
+
+------------------------------------------------------------------------------------------
+11)concat():-
+
+The concat() method creates a new array by merging (concatenating) existing arrays:
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+
+<h2>concat()</h2>
+
+<p>The concat() method is used to merge (concatenate) arrays:</p>
+
+<p id="demo"></p>
+
+<script>
+var myGirls = ["Cecilie", "Lone"];
+var myBoys = ["Emil", "Tobias", "Linus"];
+var myChildren = myGirls.concat(myBoys);
+
+document.getElementById("demo").innerHTML = myChildren;
+</script>
+
+</body>
+</html>
+
+//Cecilie,Lone,Emil,Tobias,Linus
+
+eg2:
+<script>
+var arr1 = ["Cecilie", "Lone"];
+var arr2 = ["Emil", "Tobias", "Linus"];
+var arr3 = ["Robin", "Morgan"];
+
+var myChildren = arr1.concat(arr2, arr3); 
+
+document.getElementById("demo").innerHTML = myChildren;
+</script>
+
+//Cecilie,Lone,Emil,Tobias,Linus,Robin,Morgan
+
+eg3:
+
+<script>
+var arr1 = ["Cecilie", "Lone"];
+var myChildren = arr1.concat(["Emil", "Tobias", "Linus"]); 
+document.getElementById("demo").innerHTML = myChildren;
+</script>
+
+//Cecilie,Lone,Emil,Tobias,Linus
+
+--------------------------------------------------------------------------------------------------
+12)sort() :-
+
+The sort() method sorts an array alphabetically.
+
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Sort</h2>
+
+<p>The sort() method sorts an array alphabetically.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits.sort();
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+
+//Apple,Banana,Mango,Orange
+
+----------------------------------------------------------------------------------------------------------
+13)Reverse() :-
+
+The reverse() method reverses the elements in an array.
+
+You can use it to sort an array in descending order.
+
+eg:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Sort</h2>
+
+<p>The sort() method sorts an array alphabetically.</p>
+<p>The reverse() method reverts the elements.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits.sort();
+    fruits.reverse();
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+
+//Orange,Mango,Banana,Apple
+
+------------------------------------------------------------------------------------------------------
+14)indexOf() :-
+
+The indexOf() method returns the position of the first occurrence of a specified value in a string.
+
+eg:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to locate where in the string a specifed value occurs.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = "Hello world, welcome to the universe.";
+    var n = str.indexOf("welcome");
+    document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>
+
+//Click the button to locate where in the string a specifed value occurs.
+
+Try it
+13
+
+----------------------------------------------------------------------------------------------------------------
+15)filter() :-
+
+The filter() method creates an array filled with all array elements that pass a test (provided as a function).
+
+Note: filter() does not execute the function for array elements without values.
+
+Note: filter() does not change the original array.
+
+SYNTAX:  array.filter(function(currentValue, index, arr), thisValue)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get every element in the array that has a value of 18 or more.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var ages = [32, 33, 16, 40];
+
+function checkAdult(age) {
+    return age >= 18;
+}
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+}
+</script>
+
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get every element in the array has a value above a specific number.</p>
+<p>Minimum age: <input type="number" id="ageToCheck" value="18"></p>
+<button onclick="myFunction()">Try it</button>
+
+<p>All ages above minimum: <span id="demo"></span></p>
+
+<script>
+var ages = [32, 33, 12, 40];
+
+function checkAdult(age) {
+    return age >= document.getElementById("ageToCheck").value;
+}
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+}
+</script>
+
+</body>
+</html>
+
+ans:
+
+Click the button to get every element in the array has a value above a specific number.
+
+Minimum age: 
+18
+
+Try it
+All ages above minimum: 32,33,40
+
+----------------------------------------------------------------------------------------------------------------
+15)
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to check if any of the elements in the array has a value of 18 or more.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var ages = [3, 10, 18, 20];
+
+function checkAdult(age) {
+    return age >= 18;
+}
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = ages.some(checkAdult);
+}
+</script>
+
+</body>
+</html>
+
+//Try it
+true
+
+---------------------------------------------------------------------------------------------------------------------
+16) reduce() :-
+
+The reduce() method reduces the array to a single value.
+
+The reduce() method executes a provided function for each value of the array (from left-to-right).
+
+The return value of the function is stored in an accumulator (result/total).
+
+Note: reduce() does not execute the function for array elements without values.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get the sum of the numbers in the array.</p>
+<button onclick="myFunction()">Try it</button>
+
+<p>Sum of numbers in array: <span id="demo"></span></p>
+
+<script>
+var numbers = [65, 44, 12, 4];
+
+function getSum(total, num) {
+    return total + num;
+}
+function myFunction(item) {
+    document.getElementById("demo").innerHTML = numbers.reduce(getSum);
+}
+</script>
+
+</body>
+</html>
+
+
+//Sum of numbers in array: 125
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

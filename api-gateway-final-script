@@ -1,0 +1,27 @@
+
+As we all know, each of the microservices has rest end points exposed.
+
+So, another challenge in Microservices architecture is how client communicates with the different backend microservices.
+
+As we can see on the screen, a client is accesing multiple microservices directly.
+
+
+
+
+As you can see, such mesh of interaction points between the client and the microservices creates several problems. The client have to be aware of each microservices location. 
+
+Now what happens:
+
+If the location of one Microservice changes?
+If one new Microservice is added?
+
+
+It is obvious that we cannot have such tight coupling between client and microservices. We have to hide the services layer from the client.
+
+
+<<Change Image>>
+
+For that we used the API gateway pattern. We used Netflix Zuul for our API gateway implementation.
+
+
+Now clients only need to communicate with a single service – the API gateway. In our system, the API gateway is responsible for routing to appropriate services.

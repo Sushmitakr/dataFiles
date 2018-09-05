@@ -1,0 +1,1725 @@
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+http://maverick.stackroute.in:9091/api/game/mp/category/43/capitals			//GET
+--------------------------------------------------------------------------------------------------------------
+http://localhost:8080/api/game/games/mp/770464						//GET
+-------------------------------------------------------------------------------------------------------------
+http://localhost:8080/api/game/games							//GET
+---------------------------------------------------------------------------------------------------------------
+http://localhost:8080/api/game/deletegame/1413793					  //DELETE
+----------------------------------------------------------------------------------------------------------------
+http://172.23.239.179:8080/api/v1/question-generator/category/				   //GET
+-------------------------------------------------------------------------------------------------------------------
+http://localhost:8080/api/game/mp/category/1/Biology					   //GET
+---------------------------------------------------------------------------------------------------------------------
+http://localhost:8080/api/game/Tech							   //GET
+---------------------------------------------------------------------------------------------------------------
+http://172.23.238.182:8084/api/v1/question-generator/category/				//POST
+
+ {
+ 	"categoryId": 14,
+        "categoryName": "technical",
+        "categoryImage": "http://static.dnaindia.com/sites/default/files/styles/full/public/2017/11/24/627139-digital-era-thinkstock-103117.jpg",
+        "topic": [
+            {
+                "topicId": 16,
+                "topicName": "chemistry",
+                "topicImage": "https://sites.google.com/a/iitrpr.ac.in/iitropar-chemistry/_/rsrc/1506420597557/Home/29-chemistry.jpg?height=300&width=400",
+                "questions": [
+                    {
+                        "questionId": 1,
+                        "questionLevel": 2,
+                        "questionStem": "chemical form of water?",
+                        "questionType": "manual",
+                        "option1": "2HO",
+                        "option2": "H2O2",
+                        "option3": "H2O",
+                        "option4": "none",
+                        "correctAnswer": "H2O",
+                        "user": [
+                            {
+                                "userId": 23,
+                                "userName": "bill"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 2,
+                        "questionLevel": 1,
+                        "questionStem": "Radiocarbon is produced in the atmosphere as a result of?",
+                        "questionType": "manual",
+                        "option1": "collision between fast neutrons and nitrogen nuclei present in the atmosphere",
+                        "option2": "action of ultraviolet light from the sun on atmospheric oxygen",
+                        "option3": "action of solar radiations particularly cosmic rays on carbon dioxide present in the atmosphere",
+                        "option4": "lightning discharge in atmosphere",
+                        "correctAnswer": "collision between fast neutrons and nitrogen nuclei present in the atmosphere",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 3,
+                        "questionLevel": 1,
+                        "questionStem": "It is easier to roll a stone up a sloping road than to lift it vertical upwards because?",
+                        "questionType": "manual",
+                        "option1": "work done in rolling is more than in lifting",
+                        "option2": "work done in lifting the stone is equal to rolling it",
+                        "option3": "work done in both is same but the rate of doing work is less in rolling",
+                        "option4": "work done in rolling a stone is less than in lifting it",
+                        "correctAnswer": "work done in rolling a stone is less than in lifting it",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 4,
+                        "questionLevel": 1,
+                        "questionStem": "The absorption of ink by blotting paper involves?",
+                        "questionType": "manual",
+                        "option1": "viscosity of ink",
+                        "option2": "capillary action phenomenon",
+                        "option3": "diffusion of ink through the blotting",
+                        "option4": "siphon action",
+                        "correctAnswer": "capillary action phenomenon",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 5,
+                        "questionLevel": 1,
+                        "questionStem": "Siphon will fail to work if?",
+                        "questionType": "manual",
+                        "option1": "the densities of the liquid in the two vessels are equal",
+                        "option2": "the level of the liquid in the two vessels are at the same height",
+                        "option3": "both itsthe temperature of the liquids in the two vessels are the same limbs are of unequal length",
+                        "option4": "the temperature of the liquids in the two vessels are the same",
+                        "correctAnswer": "the level of the liquid in the two vessels are at the same height",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 6,
+                        "questionLevel": 1,
+                        "questionStem": "Large transformers, when used for some time, become very hot and are cooled by circulating oil. The heating of the transformer is due to?",
+                        "questionType": "manual",
+                        "option1": "the heating effect of current alone",
+                        "option2": "hysteresis loss alone",
+                        "option3": "both the heating effect of current and hysteresis loss",
+                        "option4": "intense sunlight at noon",
+                        "correctAnswer": "both the heating effect of current and hysteresis loss",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 7,
+                        "questionLevel": 1,
+                        "questionStem": "Nuclear sizes are expressed in a unit named?",
+                        "questionType": "manual",
+                        "option1": "Fermi",
+                        "option2": "angstrom",
+                        "option3": "newton",
+                        "option4": "tesla",
+                        "correctAnswer": "Fermi",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 111,
+                        "questionLevel": 1,
+                        "questionStem": "Light year is a unit of?",
+                        "questionType": "manual",
+                        "option1": "time",
+                        "option2": "distance",
+                        "option3": "light",
+                        "option4": "intensity of light",
+                        "correctAnswer": "distance",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 8,
+                        "questionLevel": 1,
+                        "questionStem": "Mirage is due to?",
+                        "questionType": "manual",
+                        "option1": "unequal heating of different parts of the atmosphere",
+                        "option2": "magnetic disturbances in the atmosphere",
+                        "option3": "depletion of ozone layer in the atmosphere",
+                        "option4": "equal heating of different parts of the atmosphere",
+                        "correctAnswer": "unequal heating of different parts of the atmosphere",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 9,
+                        "questionLevel": 1,
+                        "questionStem": "Light from the Sun reaches us in nearly?",
+                        "questionType": "manual",
+                        "option1": "2 minutes",
+                        "option2": "4 minutes",
+                        "option3": "8 minutes",
+                        "option4": "16 minutes",
+                        "correctAnswer": "8 minutes",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    },
+                     {
+                        "questionId": 10,
+                        "questionLevel": 1,
+                        "questionStem": "Stars appears to move from east to west because?",
+                        "questionType": "manual",
+                        "option1": "all stars move from east to west",
+                        "option2": "the earth rotates from west to east",
+                        "option3": "the earth rotates from east to west",
+                        "option4": "the background of the stars moves from west to east",
+                        "correctAnswer": "the earth rotates from west to east",
+                        "user": [
+                            {
+                                "userId": 123,
+                                "userName": "tyu"
+                            }
+                        ]
+                    }
+                    ]
+            
+            }]
+ }
+
+------------------------------------------------------------------------------------------------------------------
+http://maverick.stackroute.in:9091/api/game/category/mp/2/Capitals                         //POST
+
+{
+  
+    "gameName": "Human Geography",
+    "gameImage": "http://www.utsc.utoronto.ca/geography/sites/utsc.utoronto.ca.geography/files/styles/page-content-wide/public/Human%20Geo%20Logo.jpg?itok=7nDmqMIG",
+    "createdBy": "sushmita",
+    "createdOn": "0001-01-01T00:00:00.000+0000",
+    "gameType": {
+        "gameTypeId": 2,
+        "gameTypeName": "Multi-Player-Fastest-Fingure-First-Game",
+        "gameTypeDescription": "A Multi-player timer based game is a video game where input from 2 or more player is expected throughout the course of the gaming session. A multi-player game is usually a game that can only be played by 2 or more person, while single-player mode is usually a game mode designed to be played by a single-player.Each correct answer has +10"
+    },
+    "gameDescription": "Human geography is the branch of geography that deals with the study of people and their communities, cultures, economies, and interactions with the environment by studying their relations with and across space and place.[1] Human geography attends to human patterns of social interaction, as well as spatial level interdependencies, and how they influence or affect the earth's environment.",
+    "gameRules": "1. Do not resize the browser during test,2. Never click back button on browser, 3. Avoid using scroll button on your mouse if present, 4. Click SUBMIT button to submit your exam.",
+    "categoryId": null,
+     "numberOfQuestions": 8,
+    "userId": 4,
+    "questionLevel": {
+        "easyLevel": 8,
+        "mediumLevel": 0,
+        "advancedLevel": 0
+    },
+  "timePerQuestion": 10,
+  "scorePerQuestion":5,
+    "topic": null,
+    "autoquestions": []
+}
+
+
+
+--------------------------------------------------------
+
+
+
+{
+    "gameId": 991834,
+    "gameName": "Human Geography",
+    "gameImage": "http://www.utsc.utoronto.ca/geography/sites/utsc.utoronto.ca.geography/files/styles/page-content-wide/public/Human%20Geo%20Logo.jpg?itok=7nDmqMIG",
+    "createdBy": "sushmita",
+    "createdOn": "0001-01-01T00:00:00.000+0000",
+    "gameType": {
+        "gameTypeId": 2,
+        "gameTypeName": "Multi-Player-Fastest-Fingure-First-Game",
+        "gameTypeDescription": "A Multi-player timer based game is a video game where input from 2 or more player is expected throughout the course of the gaming session. A multi-player game is usually a game that can only be played by 2 or more person, while single-player mode is usually a game mode designed to be played by a single-player.Each correct answer has +10"
+    },
+    "gameDescription": "Human geography is the branch of geography that deals with the study of people and their communities, cultures, economies, and interactions with the environment by studying their relations with and across space and place.[1] Human geography attends to human patterns of social interaction, as well as spatial level interdependencies, and how they influence or affect the earth's environment.",
+    "gameRules": "1. Do not resize the browser during test,2. Never click back button on browser, 3. Avoid using scroll button on your mouse if present, 4. Click SUBMIT button to submit your exam.",
+    "userId": 4,
+    "categoryId": 2,
+    "numberOfQuestions": 8,
+    "questionLevel": {
+        "easyLevel": 8,
+        "mediumLevel": 0,
+        "advancedLevel": 0
+    },
+    "timePerQuestion": 10,
+    "scorePerQuestion": 5,
+    "topic": {
+        "topicId": 14,
+        "topicName": "Capitals",
+        "topicImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgG9kkrz__6t_1RTEsxAA_PM7Wd8npzc6m_8JTwgqahwWR9p-R",
+        "questions": [
+            {
+                "questionId": 1,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Albania?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Tirana",
+                "option4": "Tallinn",
+                "correctAnswer": "Tirana",
+                "user": null
+            },
+            {
+                "questionId": 2,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Andorra?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Andorra_la_Vella",
+                "option4": "Tallinn",
+                "correctAnswer": "Andorra_la_Vella",
+                "user": null
+            },
+            {
+                "questionId": 3,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Azerbaijan?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Baku",
+                "option4": "Tallinn",
+                "correctAnswer": "Baku",
+                "user": null
+            },
+            {
+                "questionId": 4,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Belarus?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Minsk",
+                "option4": "Tallinn",
+                "correctAnswer": "Minsk",
+                "user": null
+            },
+            {
+                "questionId": 5,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Belgium?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "City_of_Brussels",
+                "option4": "Tallinn",
+                "correctAnswer": "City_of_Brussels",
+                "user": null
+            },
+            {
+                "questionId": 6,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Bosnia_and_Herzegovina?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Sarajevo",
+                "option4": "Tallinn",
+                "correctAnswer": "Sarajevo",
+                "user": null
+            },
+            {
+                "questionId": 7,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Bulgaria?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Sofia",
+                "option4": "Tallinn",
+                "correctAnswer": "Sofia",
+                "user": null
+            },
+            {
+                "questionId": 8,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Croatia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Zagreb",
+                "option4": "Tallinn",
+                "correctAnswer": "Zagreb",
+                "user": null
+            },
+            {
+                "questionId": 9,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Cyprus?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Nicosia",
+                "option4": "Tallinn",
+                "correctAnswer": "Nicosia",
+                "user": null
+            },
+            {
+                "questionId": 10,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Czech_Republic?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Prague",
+                "option4": "Tallinn",
+                "correctAnswer": "Prague",
+                "user": null
+            },
+            {
+                "questionId": 11,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Finland?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Helsinki",
+                "option4": "Tallinn",
+                "correctAnswer": "Helsinki",
+                "user": null
+            },
+            {
+                "questionId": 12,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Germany?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Berlin",
+                "option4": "Tallinn",
+                "correctAnswer": "Berlin",
+                "user": null
+            },
+            {
+                "questionId": 13,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Greece?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Athens",
+                "option4": "Tallinn",
+                "correctAnswer": "Athens",
+                "user": null
+            },
+            {
+                "questionId": 14,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Hungary?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Budapest",
+                "option4": "Tallinn",
+                "correctAnswer": "Budapest",
+                "user": null
+            },
+            {
+                "questionId": 15,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Iceland?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Reykjavík",
+                "option4": "Tallinn",
+                "correctAnswer": "Reykjavík",
+                "user": null
+            },
+            {
+                "questionId": 16,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Italy?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Rome",
+                "option4": "Tallinn",
+                "correctAnswer": "Rome",
+                "user": null
+            },
+            {
+                "questionId": 17,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Kazakhstan?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Astana",
+                "option4": "Tallinn",
+                "correctAnswer": "Astana",
+                "user": null
+            },
+            {
+                "questionId": 18,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Kosovo?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Pristina",
+                "option4": "Tallinn",
+                "correctAnswer": "Pristina",
+                "user": null
+            },
+            {
+                "questionId": 19,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Latvia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Riga",
+                "option4": "Tallinn",
+                "correctAnswer": "Riga",
+                "user": null
+            },
+            {
+                "questionId": 20,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Liechtenstein?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Vaduz",
+                "option4": "Tallinn",
+                "correctAnswer": "Vaduz",
+                "user": null
+            },
+            {
+                "questionId": 21,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Lithuania?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Vilnius",
+                "option4": "Tallinn",
+                "correctAnswer": "Vilnius",
+                "user": null
+            },
+            {
+                "questionId": 22,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Luxembourg?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Luxembourg_City",
+                "option4": "Tallinn",
+                "correctAnswer": "Luxembourg_City",
+                "user": null
+            },
+            {
+                "questionId": 23,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Malta?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Valletta",
+                "option4": "Tallinn",
+                "correctAnswer": "Valletta",
+                "user": null
+            },
+            {
+                "questionId": 24,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Moldova?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Chișinău",
+                "option4": "Tallinn",
+                "correctAnswer": "Chișinău",
+                "user": null
+            },
+            {
+                "questionId": 25,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Monaco?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "City-state",
+                "option4": "Tallinn",
+                "correctAnswer": "City-state",
+                "user": null
+            },
+            {
+                "questionId": 26,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Montenegro?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Podgorica",
+                "option4": "Tallinn",
+                "correctAnswer": "Podgorica",
+                "user": null
+            },
+            {
+                "questionId": 27,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Norway?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Oslo",
+                "option4": "Tallinn",
+                "correctAnswer": "Oslo",
+                "user": null
+            },
+            {
+                "questionId": 28,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Poland?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Warsaw",
+                "option4": "Tallinn",
+                "correctAnswer": "Warsaw",
+                "user": null
+            },
+            {
+                "questionId": 29,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Romania?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Bucharest",
+                "option4": "Tallinn",
+                "correctAnswer": "Bucharest",
+                "user": null
+            },
+            {
+                "questionId": 30,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Russia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Moscow",
+                "option4": "Tallinn",
+                "correctAnswer": "Moscow",
+                "user": null
+            },
+            {
+                "questionId": 31,
+                "questionLevel": 1,
+                "questionStem": "What is capital of San_Marino?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "City_of_San_Marino",
+                "option4": "Tallinn",
+                "correctAnswer": "City_of_San_Marino",
+                "user": null
+            },
+            {
+                "questionId": 32,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Slovakia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Bratislava",
+                "option4": "Tallinn",
+                "correctAnswer": "Bratislava",
+                "user": null
+            },
+            {
+                "questionId": 33,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Slovenia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Ljubljana",
+                "option4": "Tallinn",
+                "correctAnswer": "Ljubljana",
+                "user": null
+            },
+            {
+                "questionId": 34,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Spain?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Madrid",
+                "option4": "Tallinn",
+                "correctAnswer": "Madrid",
+                "user": null
+            },
+            {
+                "questionId": 35,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Switzerland?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Bern",
+                "option4": "Tallinn",
+                "correctAnswer": "Bern",
+                "user": null
+            },
+            {
+                "questionId": 36,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Denmark?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Copenhagen",
+                "option4": "Tallinn",
+                "correctAnswer": "Copenhagen",
+                "user": null
+            },
+            {
+                "questionId": 37,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Georgia_(country)?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Tbilisi",
+                "option4": "Tallinn",
+                "correctAnswer": "Tbilisi",
+                "user": null
+            },
+            {
+                "questionId": 38,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Georgia_(country)?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Kutaisi",
+                "option4": "Tallinn",
+                "correctAnswer": "Kutaisi",
+                "user": null
+            },
+            {
+                "questionId": 39,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Serbia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Belgrade",
+                "option4": "Tallinn",
+                "correctAnswer": "Belgrade",
+                "user": null
+            },
+            {
+                "questionId": 40,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Ukraine?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Kiev",
+                "option4": "Tallinn",
+                "correctAnswer": "Kiev",
+                "user": null
+            },
+            {
+                "questionId": 41,
+                "questionLevel": 1,
+                "questionStem": "What is capital of United_Kingdom?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "London",
+                "option4": "Tallinn",
+                "correctAnswer": "London",
+                "user": null
+            },
+            {
+                "questionId": 42,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Estonia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Tallinn",
+                "option4": "Tallinn",
+                "correctAnswer": "Tallinn",
+                "user": null
+            },
+            {
+                "questionId": 43,
+                "questionLevel": 1,
+                "questionStem": "What is capital of France?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Paris",
+                "option4": "Tallinn",
+                "correctAnswer": "Paris",
+                "user": null
+            },
+            {
+                "questionId": 44,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Armenia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Yerevan",
+                "option4": "Tallinn",
+                "correctAnswer": "Yerevan",
+                "user": null
+            },
+            {
+                "questionId": 45,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Austria?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Vienna",
+                "option4": "Tallinn",
+                "correctAnswer": "Vienna",
+                "user": null
+            },
+            {
+                "questionId": 46,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Republic_of_Macedonia?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Skopje",
+                "option4": "Tallinn",
+                "correctAnswer": "Skopje",
+                "user": null
+            },
+            {
+                "questionId": 47,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Sweden?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Stockholm",
+                "option4": "Tallinn",
+                "correctAnswer": "Stockholm",
+                "user": null
+            },
+            {
+                "questionId": 48,
+                "questionLevel": 1,
+                "questionStem": "What is capital of Turkey?",
+                "questionType": "Auto",
+                "option1": "Rome",
+                "option2": "Valletta",
+                "option3": "Ankara",
+                "option4": "Tallinn",
+                "correctAnswer": "Ankara",
+                "user": null
+            }
+        ]
+    },
+    "autoquestions": [
+        {
+            "questionId": 1,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Albania?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "Tirana",
+            "option4": "Tallinn",
+            "correctAnswer": "Tirana",
+            "user": null
+        },
+        {
+            "questionId": 2,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Andorra?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "Andorra_la_Vella",
+            "option4": "Tallinn",
+            "correctAnswer": "Andorra_la_Vella",
+            "user": null
+        },
+        {
+            "questionId": 3,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Azerbaijan?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "Baku",
+            "option4": "Tallinn",
+            "correctAnswer": "Baku",
+            "user": null
+        },
+        {
+            "questionId": 4,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Belarus?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "Minsk",
+            "option4": "Tallinn",
+            "correctAnswer": "Minsk",
+            "user": null
+        },
+        {
+            "questionId": 5,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Belgium?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "City_of_Brussels",
+            "option4": "Tallinn",
+            "correctAnswer": "City_of_Brussels",
+            "user": null
+        },
+        {
+            "questionId": 6,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Bosnia_and_Herzegovina?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "Sarajevo",
+            "option4": "Tallinn",
+            "correctAnswer": "Sarajevo",
+            "user": null
+        },
+        {
+            "questionId": 7,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Bulgaria?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "Sofia",
+            "option4": "Tallinn",
+            "correctAnswer": "Sofia",
+            "user": null
+        },
+        {
+            "questionId": 8,
+            "questionLevel": 1,
+            "questionStem": "What is capital of Croatia?",
+            "questionType": "Auto",
+            "option1": "Rome",
+            "option2": "Valletta",
+            "option3": "Zagreb",
+            "option4": "Tallinn",
+            "correctAnswer": "Zagreb",
+            "user": null
+        }
+    ]
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+http://maverick.stackroute.in:9091/api/game/category/1/Java  					//POST
+
+
+{
+	
+	"gameName":"Oops",
+	"gameImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmzKltvlQmvaFBVZClgWcBV2drY-zgDeEXLJJW-kM8p-yaOYkzfg",
+	"createdBy":"sushmita",
+	"createdOn":"2018-05-05",
+	"gameType":{
+		"gameTypeId": 1,
+		"gameTypeName": "Single-Player-Timer-Based-Game",
+		"gameTypeDescription": "A single player Timer Based game is a video game where input from only one player is expected throughout the course of the gaming session. A single-player game is usually a game that can only be played by one person, while single-player mode is usually a game mode designed to be played by a single-player, though the game also contains multi-player modes"
+		
+	},
+	"gameDescription":"Object means a real word entity such as pen, chair, table etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects..",
+	"gameRules":"1. Do not resize the browser during test,2. Never click back button on browser, 3. Avoid using scroll button on your mouse if present, 4. Click SUBMIT button to submit your exam.",
+	"categoryId":null ,
+	"userId":2,
+	"questionLevels":{
+	
+		"easyLevel":5,
+		"mediumLevel":5,
+		"advancedLevel":5
+	},
+	"questionTime":{
+	
+		"easyQuestionsTime":10,
+		"mediumQuestionsTime":15,
+		"advanceQuestionsTime":20
+	},
+	"questionScore":{
+	
+		"easyQuestionsScore":5,
+		"mediumQuestionsScore":10,
+		"advanceQuestionsScore":15
+	},
+	"topic":{
+		
+	},
+	"questions":null
+}
+
+
+----------------------------------------------
+
+
+{
+    "gameId": 197116,
+    "gameName": "Oops",
+    "gameImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmzKltvlQmvaFBVZClgWcBV2drY-zgDeEXLJJW-kM8p-yaOYkzfg",
+    "createdBy": "sushmita",
+    "createdOn": "2018-05-05T00:00:00.000+0000",
+    "gameType": {
+        "gameTypeId": 1,
+        "gameTypeName": "Single-Player-Timer-Based-Game",
+        "gameTypeDescription": "A single player Timer Based game is a video game where input from only one player is expected throughout the course of the gaming session. A single-player game is usually a game that can only be played by one person, while single-player mode is usually a game mode designed to be played by a single-player, though the game also contains multi-player modes"
+    },
+    "gameDescription": "Object means a real word entity such as pen, chair, table etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects..",
+    "gameRules": "1. Do not resize the browser during test,2. Never click back button on browser, 3. Avoid using scroll button on your mouse if present, 4. Click SUBMIT button to submit your exam.",
+    "categoryId": 1,
+    "userId": 2,
+    "questionLevels": {
+        "easyLevel": 5,
+        "mediumLevel": 5,
+        "advancedLevel": 5
+    },
+    "questionTime": {
+        "easyQuestionsTime": 10,
+        "mediumQuestionsTime": 15,
+        "advanceQuestionsTime": 20
+    },
+    "questionScore": {
+        "easyQuestionsScore": 5,
+        "mediumQuestionsScore": 10,
+        "advanceQuestionsScore": 15
+    },
+    "topic": {
+        "topicId": 11,
+        "topicName": "Java",
+        "topicImage": "https://production.cdmycdn.com/webpack/5d0b4f46c9bef701230aeb312118ce01.svg",
+        "questions": [
+            {
+                "questionId": 1,
+                "questionLevel": 1,
+                "questionStem": "What is the range of short data type in Java?",
+                "questionType": "manual",
+                "option1": "-128 to 127",
+                "option2": "-32768 to 32767",
+                "option3": "-2147483648 to 2147483647",
+                "option4": "None of the mentioned",
+                "correctAnswer": "-32768 to 32767",
+                "user": []
+            },
+            {
+                "questionId": 2,
+                "questionLevel": 1,
+                "questionStem": "What is the range of byte data type in Java?",
+                "questionType": "manual",
+                "option1": "-128 to 127",
+                "option2": "-32768 to 32767",
+                "option3": "-2147483648 to 2147483647",
+                "option4": "None of the mentioned",
+                "correctAnswer": "-128 to 127",
+                "user": []
+            },
+            {
+                "questionId": 3,
+                "questionLevel": 1,
+                "questionStem": "An expression involving byte, int, and literal numbers is promoted to which of these?",
+                "questionType": "manual",
+                "option1": "byte",
+                "option2": "int",
+                "option3": "long",
+                "option4": "float",
+                "correctAnswer": "int",
+                "user": []
+            },
+            {
+                "questionId": 4,
+                "questionLevel": 1,
+                "questionStem": "What is the numerical range of a char data type in Java?",
+                "questionType": "manual",
+                "option1": "-128 to 127",
+                "option2": "0 to 256",
+                "option3": "0 to 32767",
+                "option4": "0 to 65535",
+                "correctAnswer": "0 to 65535",
+                "user": []
+            },
+            {
+                "questionId": 5,
+                "questionLevel": 1,
+                "questionStem": "Which of these coding types is used for data type characters in Java?",
+                "questionType": "manual",
+                "option1": "ASCII",
+                "option2": "ISO-LATIN-1",
+                "option3": "UNICODE",
+                "option4": "None of the mentioned",
+                "correctAnswer": "UNICODE",
+                "user": []
+            },
+            {
+                "questionId": 6,
+                "questionLevel": 1,
+                "questionStem": "Which of these values can a boolean variable contain?",
+                "questionType": "manual",
+                "option1": "True & False",
+                "option2": "0 & 1",
+                "option3": "Any integer value",
+                "option4": "true",
+                "correctAnswer": "True & False",
+                "user": []
+            },
+            {
+                "questionId": 7,
+                "questionLevel": 1,
+                "questionStem": "Which one is a valid declaration of a boolean?",
+                "questionType": "manual",
+                "option1": "boolean b1 = 1;",
+                "option2": "boolean b2 = ‘false’;",
+                "option3": "boolean b3 = false;",
+                "option4": "boolean b4 = ‘true’",
+                "correctAnswer": "boolean b3 = false;",
+                "user": []
+            },
+            {
+                "questionId": 8,
+                "questionLevel": 1,
+                "questionStem": "Which of these is long data type literal?",
+                "questionType": "manual",
+                "option1": "0x99fffL",
+                "option2": "ABCDEFG",
+                "option3": "0x99fffa",
+                "option4": "99671246",
+                "correctAnswer": "99671246",
+                "user": []
+            },
+            {
+                "questionId": 9,
+                "questionLevel": 1,
+                "questionStem": "Which of these can be returned by the operator & ?",
+                "questionType": "manual",
+                "option1": "Integer",
+                "option2": "Boolean",
+                "option3": "Character",
+                "option4": "Integer or Boolean",
+                "correctAnswer": "Integer or Boolean",
+                "user": []
+            },
+            {
+                "questionId": 10,
+                "questionLevel": 1,
+                "questionStem": "Literals in java must be appended by which of these?",
+                "questionType": "manual",
+                "option1": "L",
+                "option2": "I",
+                "option3": "D",
+                "option4": "L and I",
+                "correctAnswer": "L and I",
+                "user": []
+            },
+            {
+                "questionId": 11,
+                "questionLevel": 1,
+                "questionStem": "Literal can be of which of these data types?",
+                "questionType": "manual",
+                "option1": "integer",
+                "option2": "float",
+                "option3": "boolean",
+                "option4": "all of the mentioned",
+                "correctAnswer": "all of the mentioned",
+                "user": []
+            },
+            {
+                "questionId": 12,
+                "questionLevel": 1,
+                "questionStem": "Which of these can not be used for a variable name in Java?",
+                "questionType": "manual",
+                "option1": "identifier",
+                "option2": "keyword",
+                "option3": "identifier & keyword",
+                "option4": "none of the mentioned",
+                "correctAnswer": "keyword",
+                "user": []
+            },
+            {
+                "questionId": 13,
+                "questionLevel": 2,
+                "questionStem": "Which of these is necessary condition for automatic type conversion in Java?",
+                "questionType": "manual",
+                "option1": "The destination type is smaller than source type",
+                "option2": "The destination type is larger than source type",
+                "option3": "The destination type can be larger or smaller than source type",
+                "option4": "None of the mentioned",
+                "correctAnswer": "The destination type is larger than source type",
+                "user": []
+            },
+            {
+                "questionId": 14,
+                "questionLevel": 2,
+                "questionStem": "What is the prototype of the default constructor of this class? public class prototype { }",
+                "questionType": "manual",
+                "option1": "prototype( )",
+                "option2": "prototype(void)",
+                "option3": "public prototype(void)",
+                "option4": "public prototype( )",
+                "correctAnswer": "public prototype( )",
+                "user": []
+            },
+            {
+                "questionId": 15,
+                "questionLevel": 2,
+                "questionStem": "If an expression contains double, int, float, long, then whole expression will promoted into which of these data types?",
+                "questionType": "manual",
+                "option1": "long",
+                "option2": "double",
+                "option3": "int",
+                "option4": "byte",
+                "correctAnswer": "double",
+                "user": []
+            },
+            {
+                "questionId": 16,
+                "questionLevel": 2,
+                "questionStem": "What is Truncation is Java?",
+                "questionType": "manual",
+                "option1": "Floating-point value assigned to an integer type",
+                "option2": "Integer value assigned to floating type",
+                "option3": "Floating-point value assigned to an Floating type",
+                "option4": "Integer value assigned to floating type",
+                "correctAnswer": "Floating-point value assigned to an integer type",
+                "user": []
+            },
+            {
+                "questionId": 17,
+                "questionLevel": 2,
+                "questionStem": "Which of the following can be operands of arithmetic operators?",
+                "questionType": "manual",
+                "option1": "Numeric",
+                "option2": "Boolean",
+                "option3": "Characters",
+                "option4": "Both Numeric & Characters",
+                "correctAnswer": "Both Numeric & Characters",
+                "user": []
+            },
+            {
+                "questionId": 18,
+                "questionLevel": 2,
+                "questionStem": "Modulus operator, %, can be applied to which of these?",
+                "questionType": "manual",
+                "option1": "Integers",
+                "option2": "Floating – point numbers",
+                "option3": "Both Integers and floating – point numbers.",
+                "option4": "None of the mentioned",
+                "correctAnswer": "Both Integers and floating – point numbers.",
+                "user": []
+            },
+            {
+                "questionId": 19,
+                "questionLevel": 2,
+                "questionStem": "Decrement operator, −−, decreases value of variable by what number?",
+                "questionType": "manual",
+                "option1": "1",
+                "option2": "2",
+                "option3": "3",
+                "option4": "4",
+                "correctAnswer": "1",
+                "user": []
+            },
+            {
+                "questionId": 20,
+                "questionLevel": 2,
+                "questionStem": "Which of these statements are incorrect?",
+                "questionType": "manual",
+                "option1": "Assignment operators are more efficiently implemented by Java run-time system than their equivalent long forms.",
+                "option2": "Assignment operators run faster than their equivalent long forms.",
+                "option3": "Assignment operators can be used only with numeric and character data type.",
+                "option4": "None",
+                "correctAnswer": "None",
+                "user": []
+            },
+            {
+                "questionId": 21,
+                "questionLevel": 2,
+                "questionStem": "Which of these operators is used to allocate memory to array variable in Java?",
+                "questionType": "manual",
+                "option1": "malloc",
+                "option2": "alloc",
+                "option3": "new",
+                "option4": "new malloc",
+                "correctAnswer": "new",
+                "user": []
+            },
+            {
+                "questionId": 22,
+                "questionLevel": 2,
+                "questionStem": "Which of these is an incorrect Statement?",
+                "questionType": "manual",
+                "option1": "It is necessary to use new operator to initialize an array.",
+                "option2": "Array can be initialized using comma separated expressions surrounded by curly braces.",
+                "option3": "Array can be initialized when they are declared.",
+                "option4": "None of the mentioned",
+                "correctAnswer": "It is necessary to use new operator to initialize an array.",
+                "user": []
+            },
+            {
+                "questionId": 23,
+                "questionLevel": 2,
+                "questionStem": "Which of these is necessary to specify at time of array initialization?",
+                "questionType": "manual",
+                "option1": "Row",
+                "option2": "Column",
+                "option3": "Both Row and Column",
+                "option4": "None of the mentioned",
+                "correctAnswer": "Row",
+                "user": []
+            },
+            {
+                "questionId": 24,
+                "questionLevel": 2,
+                "questionStem": "Which of these is not a bitwise operator?",
+                "questionType": "manual",
+                "option1": "&",
+                "option2": "&=",
+                "option3": "|=",
+                "option4": "<=",
+                "correctAnswer": "<=",
+                "user": []
+            },
+            {
+                "questionId": 25,
+                "questionLevel": 3,
+                "questionStem": "Which operator is used to invert all the digits in binary representation of a number?",
+                "questionType": "manual",
+                "option1": "~",
+                "option2": "<<<",
+                "option3": ">>>",
+                "option4": "^",
+                "correctAnswer": "~",
+                "user": []
+            },
+            {
+                "questionId": 26,
+                "questionLevel": 3,
+                "questionStem": "On applying Left shift operator, <<, on an integer bits are lost one they are shifted past which position bit?",
+                "questionType": "manual",
+                "option1": "1",
+                "option2": "32",
+                "option3": "33",
+                "option4": "31",
+                "correctAnswer": "31",
+                "user": []
+            },
+            {
+                "questionId": 27,
+                "questionLevel": 3,
+                "questionStem": "Which right shift operator preserves the sign of the value?",
+                "questionType": "manual",
+                "option1": "<<",
+                "option2": ">>",
+                "option3": ">>==",
+                "option4": "<<==",
+                "correctAnswer": ">>",
+                "user": []
+            },
+            {
+                "questionId": 28,
+                "questionLevel": 3,
+                "questionStem": "Which of these statements are incorrect?",
+                "questionType": "manual",
+                "option1": "The left shift operator, <<, shifts all of the bits in a value to the left specified number of times",
+                "option2": "The right shift operator, >>, shifts all of the bits in a value to the right specified number of times",
+                "option3": "The left shift operator can be used as an alternative to multiplying by 2",
+                "option4": "The right shift operator automatically fills the higher order bits with 0",
+                "correctAnswer": "The right shift operator automatically fills the higher order bits with 0",
+                "user": []
+            },
+            {
+                "questionId": 29,
+                "questionLevel": 3,
+                "questionStem": "When Overloading does not occur?",
+                "questionType": "manual",
+                "option1": "More than one method with same name but different method signature and different number or type of parameters",
+                "option2": "More than one method with same name, same signature but different number of signature",
+                "option3": "More than one method with same name, same signature, same number of parameters but different type",
+                "option4": "More than one method with same name, same number of parameters and type but different signature",
+                "correctAnswer": "More than one method with same name, same number of parameters and type but different signature",
+                "user": []
+            },
+            {
+                "questionId": 30,
+                "questionLevel": 3,
+                "questionStem": "Which concept of Java is a way of converting real world objects in terms of class?",
+                "questionType": "manual",
+                "option1": "Polymorphism",
+                "option2": "Encapsulation",
+                "option3": "Abstraction",
+                "option4": "Inheritance",
+                "correctAnswer": "Abstraction",
+                "user": []
+            },
+            {
+                "questionId": 31,
+                "questionLevel": 3,
+                "questionStem": "Which concept of Java is achieved by combining methods and attribute into a class?",
+                "questionType": "manual",
+                "option1": "Encapsulation",
+                "option2": "Inheritance",
+                "option3": "Polymorphism",
+                "option4": "Abstration",
+                "correctAnswer": "Encapsulation",
+                "user": []
+            },
+            {
+                "questionId": 32,
+                "questionLevel": 3,
+                "questionStem": "What is it called if an object has its own lifecycle and there is no owner?",
+                "questionType": "manual",
+                "option1": "Aggregation",
+                "option2": "Composition",
+                "option3": "Encapsulation",
+                "option4": "Association",
+                "correctAnswer": "Association",
+                "user": []
+            },
+            {
+                "questionId": 33,
+                "questionLevel": 3,
+                "questionStem": "What is it called where object has its own lifecycle and child object cannot belong to another parent object?",
+                "questionType": "manual",
+                "option1": "Aggregation",
+                "option2": "Compostion",
+                "option3": "Encapsulation",
+                "option4": "Association",
+                "correctAnswer": "Aggregation",
+                "user": []
+            },
+            {
+                "questionId": 34,
+                "questionLevel": 3,
+                "questionStem": "Which component is used to compile, debug and execute java program?",
+                "questionType": "manual",
+                "option1": "JVM",
+                "option2": "JDK",
+                "option3": "JIT",
+                "option4": "JRE",
+                "correctAnswer": "JDK",
+                "user": []
+            }
+        ]
+    },
+    "questions": [
+        {
+            "questionId": 1,
+            "questionLevel": 1,
+            "questionStem": "What is the range of short data type in Java?",
+            "questionType": "manual",
+            "option1": "-128 to 127",
+            "option2": "-32768 to 32767",
+            "option3": "-2147483648 to 2147483647",
+            "option4": "None of the mentioned",
+            "correctAnswer": "-32768 to 32767",
+            "user": []
+        },
+        {
+            "questionId": 2,
+            "questionLevel": 1,
+            "questionStem": "What is the range of byte data type in Java?",
+            "questionType": "manual",
+            "option1": "-128 to 127",
+            "option2": "-32768 to 32767",
+            "option3": "-2147483648 to 2147483647",
+            "option4": "None of the mentioned",
+            "correctAnswer": "-128 to 127",
+            "user": []
+        },
+        {
+            "questionId": 3,
+            "questionLevel": 1,
+            "questionStem": "An expression involving byte, int, and literal numbers is promoted to which of these?",
+            "questionType": "manual",
+            "option1": "byte",
+            "option2": "int",
+            "option3": "long",
+            "option4": "float",
+            "correctAnswer": "int",
+            "user": []
+        },
+        {
+            "questionId": 4,
+            "questionLevel": 1,
+            "questionStem": "What is the numerical range of a char data type in Java?",
+            "questionType": "manual",
+            "option1": "-128 to 127",
+            "option2": "0 to 256",
+            "option3": "0 to 32767",
+            "option4": "0 to 65535",
+            "correctAnswer": "0 to 65535",
+            "user": []
+        },
+        {
+            "questionId": 5,
+            "questionLevel": 1,
+            "questionStem": "Which of these coding types is used for data type characters in Java?",
+            "questionType": "manual",
+            "option1": "ASCII",
+            "option2": "ISO-LATIN-1",
+            "option3": "UNICODE",
+            "option4": "None of the mentioned",
+            "correctAnswer": "UNICODE",
+            "user": []
+        },
+        {
+            "questionId": 13,
+            "questionLevel": 2,
+            "questionStem": "Which of these is necessary condition for automatic type conversion in Java?",
+            "questionType": "manual",
+            "option1": "The destination type is smaller than source type",
+            "option2": "The destination type is larger than source type",
+            "option3": "The destination type can be larger or smaller than source type",
+            "option4": "None of the mentioned",
+            "correctAnswer": "The destination type is larger than source type",
+            "user": []
+        },
+        {
+            "questionId": 14,
+            "questionLevel": 2,
+            "questionStem": "What is the prototype of the default constructor of this class? public class prototype { }",
+            "questionType": "manual",
+            "option1": "prototype( )",
+            "option2": "prototype(void)",
+            "option3": "public prototype(void)",
+            "option4": "public prototype( )",
+            "correctAnswer": "public prototype( )",
+            "user": []
+        },
+        {
+            "questionId": 15,
+            "questionLevel": 2,
+            "questionStem": "If an expression contains double, int, float, long, then whole expression will promoted into which of these data types?",
+            "questionType": "manual",
+            "option1": "long",
+            "option2": "double",
+            "option3": "int",
+            "option4": "byte",
+            "correctAnswer": "double",
+            "user": []
+        },
+        {
+            "questionId": 16,
+            "questionLevel": 2,
+            "questionStem": "What is Truncation is Java?",
+            "questionType": "manual",
+            "option1": "Floating-point value assigned to an integer type",
+            "option2": "Integer value assigned to floating type",
+            "option3": "Floating-point value assigned to an Floating type",
+            "option4": "Integer value assigned to floating type",
+            "correctAnswer": "Floating-point value assigned to an integer type",
+            "user": []
+        },
+        {
+            "questionId": 17,
+            "questionLevel": 2,
+            "questionStem": "Which of the following can be operands of arithmetic operators?",
+            "questionType": "manual",
+            "option1": "Numeric",
+            "option2": "Boolean",
+            "option3": "Characters",
+            "option4": "Both Numeric & Characters",
+            "correctAnswer": "Both Numeric & Characters",
+            "user": []
+        },
+        {
+            "questionId": 25,
+            "questionLevel": 3,
+            "questionStem": "Which operator is used to invert all the digits in binary representation of a number?",
+            "questionType": "manual",
+            "option1": "~",
+            "option2": "<<<",
+            "option3": ">>>",
+            "option4": "^",
+            "correctAnswer": "~",
+            "user": []
+        },
+        {
+            "questionId": 26,
+            "questionLevel": 3,
+            "questionStem": "On applying Left shift operator, <<, on an integer bits are lost one they are shifted past which position bit?",
+            "questionType": "manual",
+            "option1": "1",
+            "option2": "32",
+            "option3": "33",
+            "option4": "31",
+            "correctAnswer": "31",
+            "user": []
+        },
+        {
+            "questionId": 27,
+            "questionLevel": 3,
+            "questionStem": "Which right shift operator preserves the sign of the value?",
+            "questionType": "manual",
+            "option1": "<<",
+            "option2": ">>",
+            "option3": ">>==",
+            "option4": "<<==",
+            "correctAnswer": ">>",
+            "user": []
+        },
+        {
+            "questionId": 28,
+            "questionLevel": 3,
+            "questionStem": "Which of these statements are incorrect?",
+            "questionType": "manual",
+            "option1": "The left shift operator, <<, shifts all of the bits in a value to the left specified number of times",
+            "option2": "The right shift operator, >>, shifts all of the bits in a value to the right specified number of times",
+            "option3": "The left shift operator can be used as an alternative to multiplying by 2",
+            "option4": "The right shift operator automatically fills the higher order bits with 0",
+            "correctAnswer": "The right shift operator automatically fills the higher order bits with 0",
+            "user": []
+        },
+        {
+            "questionId": 29,
+            "questionLevel": 3,
+            "questionStem": "When Overloading does not occur?",
+            "questionType": "manual",
+            "option1": "More than one method with same name but different method signature and different number or type of parameters",
+            "option2": "More than one method with same name, same signature but different number of signature",
+            "option3": "More than one method with same name, same signature, same number of parameters but different type",
+            "option4": "More than one method with same name, same number of parameters and type but different signature",
+            "correctAnswer": "More than one method with same name, same number of parameters and type but different signature",
+            "user": []
+        }
+    ]
+}
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+{
+	
+    "gameName": "Oops",
+    "gameImage": "http://www.physics4kids.com/art_home/main.jpg",
+    "createdBy": "sushmita",
+    "gameType": {
+        "gameTypeId": 3,
+        "gameTypeName": "Single-Player-Timer-Based-Game",
+        "gameTypeDescription": "A single-player Timer Based game is a video game where input from only one player is expected throughout the course of the gaming session. A single-player game is usually a game that can only be played by one person, while single-player mode is usually a game mode designed to be played by a single-player, though the game also contains multi-player modes"
+    },
+    
+    "gameDescription": "Oops  is the theoretical basis of modern physics that explains the nature and behavior of matter and energy on the atomic and subatomic level. The nature and behavior of matter and energy at that level is sometimes referred to as quantum physics and quantum mechanics.",
+    "gameRules": "1. Do not resize the browser during test,2. Never click back button on browser, 3. Avoid using scroll button on your mouse if present, 4. Click SUBMIT button to submit your exam.",
+    "categoryId": null,
+    "userId": null,
+    
+    "questionLevels": {
+        "easyLevel": 10,
+        "mediumLevel":10,
+        "advancedLevel":10
+    },
+    
+    "questionTime": {
+        "easyQuestionsTime": 10,
+        "mediumQuestionsTime": 10,
+        "advanceQuestionsTime": 12
+    },
+    
+    "questionScore": {
+        "easyQuestionsScore": 5,
+        "mediumQuestionsScore": 10,
+        "advanceQuestionsScore": 15
+    },
+    
+    "topic": null,
+    "questions": []
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+http://localhost:8080/api/game/category/mp/4/capitals
+
+
+
+
+{
+  
+    "gameName": "CapitalIndia",
+    "gameImage": "http://www.physics4kids.com/art_home/main.jpg",
+    "createdBy": "sushmita",
+    "createdOn": "0001-01-01T00:00:00.000+0000",
+    "gameType": {
+        "gameTypeId": 2,
+        "gameTypeName": "Multi-Player-Fastest-Fingure-First-Game",
+        "gameTypeDescription": "Multi player game.Each correct answer has +10"
+    },
+    "gameDescription": "description",
+    "gameRules": "rule of games",
+    "categoryId": 3,
+    "userId": 3,
+    "questionLevel": {
+        "easyLevel": 5,
+        "mediumLevel": 3,
+        "advancedLevel": 2
+    },
+  "timePerQuestion": 10,
+  "scorePerQuestion":5,
+    "topic": null,
+    "autoquestions": []
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
